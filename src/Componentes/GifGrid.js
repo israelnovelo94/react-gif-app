@@ -17,6 +17,7 @@ export const GifGrid = ({category}) => {
             { 
                 //mapeamos o recorremos la data para sacar la informacion del arreglo
                 data.map( img => 
+                  
                     <GifGridItem 
                     key={img.id}
                     {...img}
