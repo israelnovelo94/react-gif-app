@@ -7,14 +7,14 @@ export const useFetchGif = (category) => {
         loading: true
     });
     useEffect(() => {
-        setTimeout(() => {
+        // setTimeout(() => {
             getGift(category).then( img => {
                 setfirst({
                     data: img,
                     loading: false
                 });
             }); 
-        }, 3000);
+        // }, 3000);
     }, [category]);
     return first;
 }

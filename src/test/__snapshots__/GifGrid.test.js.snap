@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando el GifGrid simulando el uso del useFetchGif 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id={1}
+      key="1"
+      title="TEST"
+      url="www.google.com"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Probando el GifGrid snapshot del GifGrid 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  <h4>
+    Loading...
+  </h4>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
